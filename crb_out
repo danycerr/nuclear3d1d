@@ -1,0 +1,1464 @@
+Trace 1 in src/main.cpp, line 12: Running sequential Getfem
+single_rod_thins.pot
+TEMPERATURE::TEMPERATURE build biot class
+gmsh:mesh/single_rod_bl_r1.msh
+Level 3 Warning in getfem_import.cc, line 234:   All regions must have different number!
+end mesh generation
+TEMPERATURE::gen_bc()
+init vectors
+init matricies
+number of dof 25748
+add variables to workspace
+TEMPERATURE::configure_wp Configuring workspace 
+TEMPERATURE::configure_wp end of workspace configuration
+NETWORK::build_mesh
+./mesh/single_rod_thins.pts
+Number of branches 1
+end NETWORK::build_mesh
+NETWORK::NETWORK  Configuring fem
+end NETWORK::NETWORK  Configuring fem
+adding0 to region 100
+adding80 to region 181
+NETWORK::init vectors
+radius import only constant
+uranium 10970 3.6 247
+Cladding 6500 13 330
+representative coupling 877.416
+init matricies
+number of dof 82
+add variables to workspace
+Source is 2e+08
+3.14159 0.0041
+pi rr 1
+INTERPOLATOR::INTERPOLATOR Building interpolator class 
+INTERPOLATOR::INTERPOLATOR mf_1 nb dof 25748
+PROBLEM_3d1d::PROBLEM_3d1d init vectors
+nb dof biot 25748 nb dof 1d 82
+PROBLEM_3d1d:: init matricies
+PROBLEM_3d1d:: build interpolation operators
+INTERPOLATOR::build_operator Building operators 3D1D
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v0========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v1========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v2========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v3========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v4========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v5========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v6========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v7========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v8========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v9========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v10========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v11========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v12========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v13========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v14========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v15========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v16========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v17========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v18========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v19========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v20========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v21========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v22========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v23========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v24========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v25========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v26========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v27========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v28========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v29========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v30========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v31========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v32========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v33========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v34========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v35========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v36========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v37========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v38========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v39========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v40========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v41========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v42========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v43========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v44========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v45========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v46========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v47========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v48========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v49========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v50========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v51========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v52========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v53========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v54========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v55========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v56========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v57========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v58========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v59========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v60========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v61========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v62========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v63========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v64========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v65========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v66========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v67========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v68========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v69========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v70========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v71========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v72========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v73========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v74========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v75========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v76========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v77========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v78========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v79========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v80========sum_row50
+*before int ...end int
+[0, -1, 0]
+[1, -0, -0]
+0.0041
+Before distribute 
+Mti nb of points 50
+=====dof_v81========sum_row50
+
+TEMPERATURE::assembly_mat start assembling K
+TEMPERATURE::assembly_mat End assembling K
+NETWORK::assembly_mat start assembling K
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+PROBLEM_3d1d::assembly_exchange_mat()  alternative form 
+Using quadratic interpolation
+PROBLEM_3d1d::assembly_exchange_mat()  B3d3d 
+Adding coupling operator to global matrix
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+TEMPERATURE::print() temperature.vtk
+Network::print() nework.vtk
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+TEMPERATURE::print() temperature.vtk
+Network::print() nework.vtk
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+TEMPERATURE::print() temperature.vtk
+Network::print() nework.vtk
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+TEMPERATURE::print() temperature.vtk
+Network::print() nework.vtk
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+TEMPERATURE::print() temperature.vtk
+Network::print() nework.vtk
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+TEMPERATURE::print() temperature.vtk
+Network::print() nework.vtk
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+TEMPERATURE::print() temperature.vtk
+Network::print() nework.vtk
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+TEMPERATURE::print() temperature.vtk
+Network::print() nework.vtk
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+TEMPERATURE::print() temperature.vtk
+Network::print() nework.vtk
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+TEMPERATURE::print() temperature.vtk
+Network::print() nework.vtk
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+TEMPERATURE::print() temperature.vtk
+Network::print() nework.vtk
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+TEMPERATURE::print() temperature.vtk
+Network::print() nework.vtk
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+TEMPERATURE::print() temperature.vtk
+Network::print() nework.vtk
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+TEMPERATURE::print() temperature.vtk
+Network::print() nework.vtk
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+TEMPERATURE::print() temperature.vtk
+Network::print() nework.vtk
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+TEMPERATURE::print() temperature.vtk
+Network::print() nework.vtk
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+TEMPERATURE::print() temperature.vtk
+Network::print() nework.vtk
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+TEMPERATURE::print() temperature.vtk
+Network::print() nework.vtk
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+TEMPERATURE::print() temperature.vtk
+Network::print() nework.vtk
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+TEMPERATURE::print() temperature.vtk
+Network::print() nework.vtk
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs
+condition number 0.000299406
+TEMPERATURE::assembly_mat start assembling rhs
+TEMPERATURE::assembly_mat end assembling rhs
+NETWORK::assembly_mat start assembling rhs

@@ -1,0 +1,110 @@
+[time]
+dt=0.8 #time step of the simulation
+nstep=100
+pstep=10
+[../]
+[]
+[biot]
+   [./mesh]
+      mesh_type=GT_LINEAR_QK(3) # type mesh element
+      #resu_name
+      ndiv = 10 #number of cube subdivision
+   [../]
+   [./fem]
+      fem_u=FEM_PK(3,1)    # fem space for disp
+      fem_p=FEM_PK(3,1)    # fem space for pressure
+      integr_method=IM_TETRAHEDRON(6) #integration method
+   [../]
+   [./material]
+      E=1.e+10
+      poisson =0.3
+      biot_modulus=1.e+9
+      k =1.e-4; //permeability -14 
+      alpha=0.  // Biot coefficient
+      rho_l=1000 // liquid density
+      rho_r=2200 // solid density
+   [../]
+[../]
+[]
+[temperature]
+   [./mesh]
+      mesh_type=GT_LINEAR_QK(3) # type mesh element
+      read_mesh=1 #read mesh from file 
+      # mesh_name=mesh/nacie3bundle.msh #mesh name
+      mesh_name=mesh/nacie3bundle_30hdiv.msh #mesh name
+      # mesh_name=mesh/nacie3bundle_50hdiv.msh #mesh name
+      refine=0
+      #resu_name
+      ndiv = 10 #number of cube subdivision
+   [../]
+   [./fem]
+      fem_u=FEM_QK(3,1)    # fem space for disp
+      fem_p=FEM_QK(3,1)    # fem space for pressure
+      integr_method=IM_GAUSS_PARALLELEPIPED(3,6) #integration method
+   [../]
+   [./material]
+    [./UO2]
+        rho=10970 #Kg/m^3
+        k=3.6     #W/m grad C
+        cp=247    #J/Kg grad K
+    [../]
+    [./LBE]
+        rho=10340 #Kg/m^3
+        k=10     #W/m grad C
+        cp=145    #J/Kg grad K
+    [../]
+    [./Zircalloy]
+        rho=6500 #Kg/m^3
+        k=13.     #W/m grad C
+        cp=330.    #J/Kg grad K
+    [../]
+   [../]
+[../]
+[]
+[oned]
+   [./mesh]
+      mesh_type=GT_PK(1,1) # type mesh element
+  #  input_fn=./mesh/single_rod_120.pts
+ #  input_fn=./mesh/nacie_bundle.pts
+ # input_fn=./mesh/nacie_bundle_h120.pts
+   input_fn=./mesh/nacie_tr1bundle_h60.pts
+ #  input_fn=./mesh/nacie_tr1bundle_h90.pts
+   [../]
+   [./fem]
+      fem=FEM_PK(1,1)    # fem space for pres
+      fem_data=FEM_PK(1,0)    # fem space for pres
+      integr_method=IM_GAUSS1D(6) #integration method
+   [../]
+   source=2.2e+7 #power source
+   ConversionPowerFactor=2.1254
+   [./geometry]
+   radius=${/ 0.0065 2}
+   delta_clad=0.0004
+   [../]   
+    [./material]
+        [./UO2]
+            rho=10970 #Kg/m^3
+            k=3.6     #W/m grad C
+            cp=247    #J/Kg grad K
+        [../]
+        [./LBE]
+            rho=10340 #Kg/m^3
+            k=10     #W/m grad C
+            cp=145    #J/Kg grad K
+        [../]
+        [./Zircalloy]
+            rho=6500. #Kg/m^3
+            k=13.     #W/m grad C
+            cp=330.    #J/Kg grad K
+        [../]
+    [../]
+[../]
+
+[/3d1d]
+   coupling =1
+   couplingOrder=2
+[../]
+
+[interpolation]
+   NInt = 11 #Nb of discretisation point for 3D-1D interpolation
+[../]

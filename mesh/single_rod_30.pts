@@ -1,0 +1,37 @@
+BEGIN_LIST
+BEGIN_ARC
+BC DIR  0
+BC MIX  0
+	1	1e-09	1e-09	0	begin
+	1	1e-09	1e-09	2	end
+	1	1e-09	1e-09	0.0666667	point
+	1	1e-09	1e-09	0.133333	point
+	1	1e-09	1e-09	0.2	point
+	1	1e-09	1e-09	0.266667	point
+	1	1e-09	1e-09	0.333333	point
+	1	1e-09	1e-09	0.4	point
+	1	1e-09	1e-09	0.466667	point
+	1	1e-09	1e-09	0.533333	point
+	1	1e-09	1e-09	0.6	point
+	1	1e-09	1e-09	0.666667	point
+	1	1e-09	1e-09	0.733333	point
+	1	1e-09	1e-09	0.8	point
+	1	1e-09	1e-09	0.866667	point
+	1	1e-09	1e-09	0.933333	point
+	1	1e-09	1e-09	1	point
+	1	1e-09	1e-09	1.06667	point
+	1	1e-09	1e-09	1.13333	point
+	1	1e-09	1e-09	1.2	point
+	1	1e-09	1e-09	1.26667	point
+	1	1e-09	1e-09	1.33333	point
+	1	1e-09	1e-09	1.4	point
+	1	1e-09	1e-09	1.46667	point
+	1	1e-09	1e-09	1.53333	point
+	1	1e-09	1e-09	1.6	point
+	1	1e-09	1e-09	1.66667	point
+	1	1e-09	1e-09	1.73333	point
+	1	1e-09	1e-09	1.8	point
+	1	1e-09	1e-09	1.86667	point
+	1	1e-09	1e-09	1.93333	point
+END_ARC
+END_LIST
